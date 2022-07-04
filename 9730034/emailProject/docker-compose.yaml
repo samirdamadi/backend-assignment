@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  app:
+    build: .
+    image: ie-img
+    ports:
+      - 8080:8080
